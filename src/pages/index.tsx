@@ -1,5 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import { LinkButton } from "../components/LinkButton";
+import { FaUser } from "react-icons/fa";
 
 const Home: NextPage = () => {
   return (
@@ -21,6 +23,7 @@ const Home: NextPage = () => {
           <p>
             Uma pessoa disciplinada que sempre busca sua melhor versão amanhã.
           </p>
+          <LinkButton link='/about' description='Sobre Mim' icon={FaUser} />
         </div>
       </section>
     </>
