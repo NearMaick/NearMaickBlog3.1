@@ -26,10 +26,11 @@
     }
 
     span {
-      display: block;
+      display: flex;
+      align-items: center;
       font-size: 3rem;
       color: $red-800;
-      padding: 0.5rem 0;
+      padding: 0.5rem 0 0 1rem;
     }
 
     p {
@@ -38,6 +39,17 @@
       padding: 1rem 0;
       line-height: 2;
     }
+  }
+}
+
+.blinkingCursor:after {
+  content: "|";
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
   }
 }
 

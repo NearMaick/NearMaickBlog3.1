@@ -4,6 +4,7 @@ import { LinkButton } from "../components/LinkButton";
 import { FaUser } from "react-icons/fa";
 
 import styles from "../styles/pages/Home.module.scss";
+import { Superpowers } from "../components/SuperpowerWords";
 
 const Home: NextPage = () => {
   return (
@@ -21,7 +22,9 @@ const Home: NextPage = () => {
 
         <div className={styles.content}>
           <h3>Olá, sou maick souza</h3>
-          <span>JavaScript FullStack Developer</span>
+          <span>
+            <Superpowers />
+          </span>
           <p>
             Uma pessoa disciplinada que sempre busca sua melhor versão amanhã.
           </p>
