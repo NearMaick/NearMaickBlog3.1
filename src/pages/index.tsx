@@ -3,6 +3,8 @@ import Head from "next/head";
 import { LinkButton } from "../components/LinkButton";
 import { FaUser } from "react-icons/fa";
 
+import styles from "../styles/pages/Home.module.scss";
+
 const Home: NextPage = () => {
   return (
     <>
@@ -12,12 +14,12 @@ const Home: NextPage = () => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <section>
-        <div>
+      <section className={styles.home}>
+        <div className={styles.image}>
           <img src='https://github.com/nearmaick.png' alt='Maick Souza Foto' />
         </div>
 
-        <div>
+        <div className={styles.content}>
           <h3>Olá, sou maick souza</h3>
           <span>JavaScript FullStack Developer</span>
           <p>

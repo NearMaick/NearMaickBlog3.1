@@ -1,0 +1,61 @@
+@import "../colors";
+
+.home {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 4rem;
+  min-height: calc(100vh - 6.5rem);
+
+  .image {
+    flex: 1 1 42rem;
+
+    img {
+      height: 50rem;
+      width: 50rem;
+      border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    }
+  }
+
+  .content {
+    flex: 1 1 42rem;
+
+    h3 {
+      font-size: 3rem;
+    }
+
+    span {
+      display: block;
+      font-size: 3rem;
+      color: $red-800;
+      padding: 0.5rem 0;
+    }
+
+    p {
+      font-size: 1.5rem;
+      color: $gray-100;
+      padding: 1rem 0;
+      line-height: 2;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .home {
+    gap: 2rem;
+
+    .image img {
+      height: 30rem;
+      width: 30rem;
+    }
+
+    .content h3 {
+      font-size: 3rem;
+    }
+
+    .content span {
+      font-size: 2.5rem;
+    }
+  }
+}
