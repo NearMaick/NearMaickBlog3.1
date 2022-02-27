@@ -1,0 +1,56 @@
+@import "../../colors";
+
+.graduationContainer {
+  display: flex;
+  flex-wrap: wrap;
+
+  div {
+    flex: 1 1 40rem;
+    margin-left: 2rem;
+    padding: 0 0 3.5rem 3rem;
+    border-left: 1px solid var(--gray-100);
+    position: relative;
+
+    i {
+      position: absolute;
+      top: -1rem;
+      left: -2.5rem;
+
+      text-align: center;
+
+      background: $red-800;
+      border-radius: 50%;
+      height: 4.5rem;
+      width: 4.5rem;
+      line-height: 4.5rem;
+
+      svg {
+        height: 2.4rem;
+        width: 2.4rem;
+        margin-top: 1rem;
+      }
+    }
+
+    span {
+      font-size: 1.7rem;
+      background: $gray-800;
+      border-radius: 5rem;
+      padding: 0.5rem 1.5rem;
+
+      width: 30rem;
+      height: 4rem;
+    }
+
+    h3 {
+      font-size: 2rem;
+      padding: 4rem 0 1rem;
+      font-weight: normal;
+    }
+
+    p {
+      font-size: 1.5rem;
+      color: $gray-100;
+      line-height: 2;
+    }
+  }
+}

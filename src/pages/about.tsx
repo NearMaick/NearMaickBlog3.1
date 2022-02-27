@@ -1,10 +1,13 @@
 import { NextPage } from "next";
 import Head from "next/head";
+import { FaChevronCircleLeft } from "react-icons/fa";
+import { GraduationList } from "../components/about/GraduationList";
 
 import { InfoCard } from "../components/about/InfoCard";
 import { ProjectCount } from "../components/about/ProjectCount";
 import { SkillsList } from "../components/about/SkillsList";
 import { Heading } from "../components/Heading";
+import { LinkButton } from "../components/LinkButton";
 
 import styles from "../styles/pages/About.module.scss";
 
@@ -28,7 +31,12 @@ const About: NextPage = () => {
         <Heading title='minhas habilidades' subtitle='técnicas' />
         <SkillsList />
       </section>
-      <section></section>
+      <section>
+        <GraduationList />
+      </section>
+      <section>
+        <LinkButton link='/' description='Voltar' icon={FaChevronCircleLeft} />
+      </section>
     </>
   );
 };

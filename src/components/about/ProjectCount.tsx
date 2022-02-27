@@ -13,6 +13,11 @@ const projectData = [
     title: "3+",
     subtitle: "Estudando e desenvolvendo páginas com ReactJs",
   },
+  {
+    id: "2",
+    title: "4+",
+    subtitle: "Estudando programação",
+  },
 ] as IProps[];
 
 export function ProjectCount() {
