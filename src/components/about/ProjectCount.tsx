@@ -8,6 +8,11 @@ interface IProps {
 
 const projectData = [
   { id: "1", title: "1+", subtitle: "Construindo páginas como esta" },
+  {
+    id: "2",
+    title: "3+",
+    subtitle: "Estudando e desenvolvendo páginas com ReactJs",
+  },
 ] as IProps[];
 
 export function ProjectCount() {
