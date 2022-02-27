@@ -43,3 +43,9 @@ section {
     font-size: 50%;
   }
 }
+
+@media (max-width: 340px) {
+  html {
+    font-size: 40%;
+  }
+}

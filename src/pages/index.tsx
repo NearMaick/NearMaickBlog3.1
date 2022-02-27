@@ -3,8 +3,9 @@ import Head from "next/head";
 import { LinkButton } from "../components/LinkButton";
 import { FaUser } from "react-icons/fa";
 
-import styles from "../styles/pages/Home.module.scss";
 import { Superpowers } from "../components/SuperpowerWords";
+
+import styles from "../styles/pages/Home.module.scss";
 
 const Home: NextPage = () => {
   return (
