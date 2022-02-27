@@ -3,7 +3,7 @@ import { useTypedSuperpower } from "./useTypedSuperpower";
 
 const superpowers = [
   "JavaScript Back-end developer",
-  "JavaScript Front-end developer",
+  "JavaScript Web developer",
   "JavaScript Mobile developer",
   "Elixir developer?",
 ];
