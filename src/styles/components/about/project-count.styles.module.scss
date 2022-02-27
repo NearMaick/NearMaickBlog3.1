@@ -1,0 +1,26 @@
+@import "../../colors";
+
+.countContainer {
+  display: flex;
+  flex: 1 1 42rem;
+  flex-wrap: wrap;
+  gap: 2rem;
+
+  div {
+    flex: 1 1 20rem;
+    padding: 3rem 4rem;
+    background: $gray-800;
+    box-shadow: $box-shadow-black;
+    border-radius: 0.5rem;
+
+    h3 {
+      font-size: 5rem;
+      color: $red-800;
+    }
+
+    p {
+      font-size: 2rem;
+      color: $gray-100;
+    }
+  }
+}

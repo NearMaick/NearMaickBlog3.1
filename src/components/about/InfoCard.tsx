@@ -22,7 +22,11 @@ export function InfoCard() {
           </h3>
         </div>
       </div>
-      <LinkButton link='/' description='Baixar CV' icon={FaDownload} />
+      <LinkButton
+        link='https://docs.google.com/document/d/1wvEp_XyjUz4VW5-op63jxbXtus_zVgTbcSFV_czDTsc/edit?usp=sharing'
+        description='Baixar CV'
+        icon={FaDownload}
+      />
     </div>
   );
 }
