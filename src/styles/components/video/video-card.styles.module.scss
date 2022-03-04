@@ -1,0 +1,17 @@
+@import "../../colors";
+
+.box {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  background: $gray-800;
+  box-shadow: $box-shadow-black;
+
+  height: 36rem;
+  width: 100%;
+
+  iframe {
+    height: 100%;
+    width: 100%;
+  }
+}
