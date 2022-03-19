@@ -7,7 +7,7 @@ type HeadingProps = {
 
 export function Heading({ title, subtitle }: HeadingProps) {
   return (
-    <h1 className={styles.heading}>
+    <h1 data-aos='zoom-in' className={styles.heading}>
       {title} <span>{subtitle}</span>
     </h1>
   );

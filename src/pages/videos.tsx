@@ -2,7 +2,6 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import { Heading } from "../components/Heading";
 import { VideoCard } from "../components/video/VideoCard";
-
 import styles from "../styles/pages/Videos.module.scss";
 
 const Home: NextPage = () => {

@@ -1,10 +1,8 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { LinkButton } from "../components/LinkButton";
 import { FaUser } from "react-icons/fa";
-
+import { LinkButton } from "../components/LinkButton";
 import { Superpowers } from "../components/SuperpowerWords";
-
 import styles from "../styles/pages/Home.module.scss";
 
 const Home: NextPage = () => {

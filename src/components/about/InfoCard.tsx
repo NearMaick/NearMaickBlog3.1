@@ -1,11 +1,10 @@
 import { FaDownload } from "react-icons/fa";
-
 import styles from "../../styles/components/about/info-card.styles.module.scss";
 import { LinkButton } from "../LinkButton";
 
 export function InfoCard() {
   return (
-    <div className={styles.infoContainer}>
+    <div data-aos='zoom-in' className={styles.infoContainer}>
       <h1>informações pessoais</h1>
       <div className={styles.boxContainer}>
         <div>

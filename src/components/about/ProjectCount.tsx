@@ -22,9 +22,9 @@ const projectData = [
 
 export function ProjectCount() {
   return (
-    <div className={styles.countContainer}>
+    <div data-aos='zoom-in' className={styles.countContainer}>
       {projectData.map((project) => (
-        <div key={project.id}>
+        <div data-aos='flip-left' key={project.id}>
           <h3>{project.title}</h3>
           <p>{project.subtitle}</p>
         </div>
